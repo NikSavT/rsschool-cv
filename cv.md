@@ -1,4 +1,5 @@
-# Mikalay Savitski  ![photo](..%5Cphoto_2.jpg)
+# Mikalay Savitski 
+![photo](photo_2.jpg)
 ***
 ### Contacts:
 **E-mail:** hickhickert@gmail.com <br />
