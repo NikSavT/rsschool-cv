@@ -13,10 +13,11 @@ Before deciding to enter the Sphere of IT technology, I worked in various fields
 Nothing else((( But I will try very hard to acquire all the necessary skills
 ***
 ### Code example
- 
+'''
     function multiply($a, $b) {
     return $a * $b;
     }
+'''
 ***
 ### Project
 https://NikSavT.github.io/rsschool-cv/cv
