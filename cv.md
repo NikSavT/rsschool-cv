@@ -30,3 +30,13 @@
 ## Work experience:
   - [First_work, HTML,CSS](https://niksavt.github.io/Portfolio/)
   - [HTML,CSS, adaptive](https://github.com/NikSavT/Udemi_project_Uber)
+
+## Education
+  - 2002 Academy of MIA Republic of Belarus;
+  - 2009 Belarusian State University of Physical Education;
+  - Result School:
+      - [HTML, CSS;](https://result.school/products/html-css) finished
+  - Udemi:
+      - [WEB-developer 2022](https://www.udemy.com/course/webdeveloper/) finished;
+      - [The Complete JavaScript + React Course - From Zero to Result](https://www.udemy.com/course/javascript_full/) (in progress);
+      - [RSSchool «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress).
