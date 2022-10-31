@@ -40,3 +40,7 @@
       - [WEB-developer 2022](https://www.udemy.com/course/webdeveloper/) finished;
       - [The Complete JavaScript + React Course - From Zero to Result](https://www.udemy.com/course/javascript_full/) (in progress);
       - [RSSchool «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress).
+
+## Languages
+  - Russian - native;
+  - English - A2 (learning now in [British School] (A2-B1); In addition, I`ve got constant language practice with native speaker - my friend from Australia) 
