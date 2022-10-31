@@ -19,3 +19,10 @@
   - Version control: Git (GitHub);
   - Figma,Photoshop(for web development);
   - JavaScript (Fundamentals).
+  
+## Code examples
+  ```
+  function multiply(a, b){
+  return a * b
+}
+```
