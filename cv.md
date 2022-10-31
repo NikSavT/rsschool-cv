@@ -10,3 +10,12 @@
 
 ## About me
 
+
+
+## Skills
+
+  - HTML;
+  - CSS (Sass, Bootstrap 5, BEM);
+  - Version control: Git (GitHub);
+  - Figma,Photoshop(for web development);
+  - JavaScript (Fundamentals).
