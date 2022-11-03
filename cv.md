@@ -1,4 +1,6 @@
-## [rsschool-cv][def]
+## [rsschool-cv](https://niksavt.github.io/rsschool-cv/cv)
+
+![Alt-photo](photo%20300px%20blue.png)
 # Mikalai Savitski
 ## My contact info  
 
@@ -10,6 +12,16 @@
 
 ## About me
 
+Previously, I worked in various fields from public service to the financial market and real business. I have always been interested in computers. Since 2022, I have become interested in development. I wanted to dive into this topic as much as possible. I got carried away with the frontend, as I am visual by nature.
+
+ I am used to learning from the best, which is why I chose RS School for myself. I set a goal - to become a senior developer. 
+ 
+ At the same time, knowing the need for the English language, I began an active study of it. The task is to learn it at least to B2. 
+ 
+ My strengths are purposefulness, the ability to find a way out of non-standard situations, teamwork. Life experience allows me not to fall, and, in case of occurrence, to resolve conflict situations. I love learning new things. 
+ 
+ My hobbies are sports and cooking.
+
 
 
 ## Skills
@@ -17,8 +29,8 @@
   - HTML;
   - CSS (Sass, Bootstrap 5, BEM);
   - Version control: Git (GitHub);
-  - Figma,Photoshop(for web development);
-  - JavaScript (Fundamentals).
+  - Figma, Photoshop(for web development);
+  - JavaScript (Fundamentals in process).
   
 ## Code examples
   ```
@@ -29,7 +41,7 @@
 
 ## Work experience:
   - [First_work, HTML,CSS](https://niksavt.github.io/Portfolio/)
-  - [HTML,CSS, adaptive](https://github.com/NikSavT/Udemi_project_Uber)
+  - [HTML,CSS, adaptive](https://github.com/NikSavT/Udemi_project_Uber) (change link)
 
 ## Education
   - 2002 Academy of MIA Republic of Belarus;
@@ -43,4 +55,5 @@
 
 ## Languages
   - Russian - native;
-  - English - A2 (learning now in [British School] (A2-B1); In addition, I`ve got constant language practice with native speaker - my friend from Australia) 
+  - English - A2 (learning now in [British School](https://britishschool.by/) (A2-B1); In addition, I`ve got constant language practice with native speaker - my friend from Australia)
+  - Belarusian - intermediate
