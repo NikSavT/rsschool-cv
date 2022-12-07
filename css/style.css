@@ -1,6 +1,8 @@
-.header {
-  font-size: 40px;
-  font-weight: bold;
-  color: darkblue;
-  text-align: center;
+* {
+  font-family: "Garet", sans-serif;
 }
+
+h1 {
+  font-size: 49px;
+  color: green;
+}/*# sourceMappingURL=style.css.map */
