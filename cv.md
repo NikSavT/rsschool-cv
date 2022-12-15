@@ -1,6 +1,6 @@
 ## [rsschool-cv](https://niksavt.github.io/rsschool-cv/cv)
 
-![Alt-photo](photo%20300px%20blue.png)
+![Alt-photo](assets/img/photo%20300px%20blue.png)
 
 # Mikalai Savitski
 
@@ -36,8 +36,8 @@ My hobbies are sports and cooking.
 
 ```javascript_full
   function multiply(a, b){
-  return a * b
-}
+    return a * b
+  }
 ```
 
 ## Work experience &#58;
@@ -59,5 +59,4 @@ My hobbies are sports and cooking.
 ## Languages
 
 - Russian - native;
-- English - A2 (learning now in [British School](https://britishschool.by/) (A2-B1); In addition, I`ve got constant language practice with native speaker - my friend from Australia)
-- Belarusian - intermediate  
+- English - A2 (learning now in [British School](https://britishschool.by/) (A2-B1);
