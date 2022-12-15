@@ -8,11 +8,6 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
   background: #DCDCDC;
 }
 
@@ -21,7 +16,18 @@ body {
   margin: 0 auto;
 }
 
-.main-header {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../assets/img/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.header {
   flex-shrink: 0;
 }
 
@@ -29,14 +35,14 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 0;
+  margin: 0;
   padding: 0 40px;
   list-style: none;
   background: #105e93;
 }
 .nav-link {
   display: block;
-  padding: 20px 20px;
+  padding: 20px;
   font: 400 20px "Barlow", sans-serif;
   color: #ffffff;
   text-decoration: none;
@@ -49,13 +55,6 @@ body {
 
 .main {
   flex-grow: 1;
-}
-.main-wrapper {
-  background-image: url(../assets/img/background.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .profile {
@@ -185,15 +184,18 @@ body {
 
 .code-inner {
   padding: 20px;
+  margin: 0;
   background: #cfcfcf;
   text-align: left;
-  font-size: 25px;
-  overflow: auto;
+  font-size: 24px;
 }
 .code-example {
   display: block;
 }
 
+.js {
+  font-weight: 600;
+}
 .js-function {
   color: #21649a;
 }
@@ -206,6 +208,7 @@ body {
 
 .footer {
   flex-shrink: 0;
+  margin-top: 40px;
 }
 .footer-wrapper {
   display: flex;
@@ -241,11 +244,173 @@ body {
   text-decoration: underline;
   color: #07e2f6;
 }
-.footer-rsschool-link {
-  display: block;
+.footer-rsschool-logo {
   height: auto;
   width: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
-.footer-rsschool-link-logo {
-  object-fit: contain;
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .profile-wrapper {
+    margin-left: -100px;
+    height: 175px;
+  }
+  .profile-image {
+    max-width: 350px;
+  }
+  .profile-header {
+    font-size: 55px;
+  }
+  .profile-subheader {
+    font-size: 30px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .nav-list {
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+    background: #105e93;
+  }
+  .nav-link {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .profile-wrapper {
+    margin-left: -100px;
+    padding: 0 25px 0 100px;
+    width: 980px;
+    height: 140px;
+  }
+  .profile-image {
+    max-width: 250px;
+  }
+  .profile-header {
+    font-size: 50px;
+  }
+  .profile-subheader {
+    font-size: 25px;
+  }
+  .section {
+    font-size: 25px;
+  }
+  .section-left {
+    padding-right: 30px;
+  }
+  .section-right {
+    padding-left: 30px;
+  }
+  .section-list {
+    font-size: 18px;
+    padding-left: 25px;
+  }
+  .section-text {
+    font-size: 18px;
+    padding-left: 25px;
+  }
+  .code-inner {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .profile-wrapper {
+    margin-left: -100px;
+    padding: 0 25px 0 100px;
+    width: 980px;
+    height: 140px;
+  }
+  .profile-image {
+    max-width: 200px;
+  }
+  .profile-header {
+    font-size: 30px;
+  }
+  .profile-subheader {
+    font-size: 20px;
+  }
+  .section {
+    font-size: 15px;
+  }
+  .section-left {
+    padding-right: 20px;
+  }
+  .section-right {
+    padding-left: 20px;
+  }
+  .section-list {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .section-text {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .code-inner {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: auto;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .profile-wrapper {
+    margin: 20px 0;
+    padding: 0px 15px;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .profile-image {
+    margin: 0 20px;
+    max-width: 100%;
+  }
+  .profile-header {
+    text-align: center;
+  }
+  .profile-subheader {
+    text-align: center;
+  }
+  .section-title {
+    margin: 30px 0 15px 0;
+  }
+  .section-left {
+    width: 100%;
+    margin-top: 0;
+    padding-right: 15px;
+  }
+  .section-right {
+    width: 100%;
+  }
+  .section-list {
+    padding-left: 15px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    min-height: 250px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

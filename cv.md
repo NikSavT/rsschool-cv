@@ -36,8 +36,8 @@ My hobbies are sports and cooking.
 
 ```javascript_full
   function multiply(a, b){
-  return a * b
-}
+    return a * b
+  }
 ```
 
 ## Work experience &#58;
